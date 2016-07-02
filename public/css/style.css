@@ -99,6 +99,7 @@ html {
   min-height: 700px;
   position: relative;
   color: #222;
+
 }
 
 body {
@@ -107,6 +108,13 @@ body {
   position: relative;
   color: #585858;
   text-align: center;
+
+  background: url(/img/background-frames.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
 }
 
 ul {
@@ -120,6 +128,10 @@ section.module:last-child {
 }
 section.module p:last-child {
   margin-bottom: 0;
+}
+
+h1 {
+  font-family: 'Nixie One', cursive;
 }
 
 h2 {
@@ -163,25 +175,6 @@ h6 {
   line-height: 27px;
   margin-top: 18px;
 }
-.contact a {
-  font-size: 14px;
-}
-
-.text-group {
-  margin-bottom: 25px;
-}
-
-.project h4 {
-  margin-bottom: 30px;  
-}
-
-.project-bg {
-  background-color: #F3F3F3;
-}
-
-.project-margin {
-  margin-top: 40px;
-}
 
 .gray-text {
   color: #BDBDBD;
@@ -219,7 +212,7 @@ section.module.parallax-2 {
 /* === GENERAL BUTTON === */
 
 a {
-  font-size: 22px;
+  font-size: 17px;
   color: #B7305A;
   font-weight: 300;
 }
